@@ -1,8 +1,12 @@
 # Turtlebot3 with Intel RealSense d435 RGBD SLAM
 Если какие-то пакеты уже установлены на вашем устройстве, следует заменить их пакетами из данного репозитория.
 # Установка
-- Клонировать репозиторий в workspace.
-- Выполнить catkin_make
+- Клонировать репозиторий.
+- Установить зависимости:
+
+`sudo apt-get install ros-melodic-turtlebot3-msgs ros-melodic-turtlebot3-gazebo ros-melodic-turtlebot3-gazebo ros-melodic-turtlebot3-navigation ros-melodic-turtlebot3-simulations ros-melodic-rtabmap ros-melodic-rtabmap-ros ros-melodic-realsense2-camera ros-melodic-realsense2-description`
+- Запустить install.sh (`bash install.sh`)
+
 # Запуск симуляции
 Один из вариантов:
 - Запустить симуляцию в gazebo:
